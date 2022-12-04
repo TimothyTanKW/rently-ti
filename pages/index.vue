@@ -6,7 +6,7 @@ useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/apartment1`)
 </script>
 
 <template>
-  <div class="md:container md:mx-auto  bg-base-100">
+  <div class="md:container md:mx-auto bg-slate-800">
     <div class="flex items-center justify-between py-10 px-5">
       <h1 class="text-3xl">Apartment List</h1>
       <div class="text-lg">Total Listing : {{ apartment.length }}</div>
