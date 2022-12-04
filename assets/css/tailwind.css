@@ -4,6 +4,10 @@
 
 @layer components {
     .btn{
-        @apply inline-flex justify-center items-center whitespace-nowrap bg-red-500
+        @apply inline-flex justify-center items-center whitespace-nowrap btn-secondary
+    }
+
+    .navbar {
+        @apply bg-primary
     }
 }
