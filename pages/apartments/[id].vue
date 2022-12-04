@@ -30,14 +30,14 @@ new useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/listofitems`)
             <!-- head -->
             <thead>
               <tr>
-                <th class="bg-gray-800">Item</th>
-                <th class="bg-gray-800">Quantity</th>
+                <th class="bg-gray-700 border-slate-800">Item</th>
+                <th class="bg-gray-700 border-slate-800">Quantity</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(inventory, index) in inventories" :key="index">
-                <td class="bg-gray-800">{{ inventory.item }}</td>
-                <td class="bg-gray-800">{{ inventory.quantity }}</td>
+                <td class="bg-gray-700 border-slate-800">{{ inventory.item }}</td>
+                <td class="bg-gray-700 border-slate-800">{{ inventory.quantity }}</td>
               </tr>
             </tbody>
           </table>
@@ -88,16 +88,16 @@ new useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/listofitems`)
             <!-- head -->
             <thead>
               <tr>
-                <th class="bg-gray-800">Item</th>
-                <th class="w-2 bg-gray-800">Quantity</th>
-                <th class="w-2 bg-gray-800">Edit</th>
+                <th class="bg-gray-700">Item</th>
+                <th class="w-2 bg-gray-700 border-slate-800">Quantity</th>
+                <th class="w-2 bg-gray-700 border-slate-800">Edit</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="(inventory, index) in inventories" :key="index">
-                <td class="bg-gray-800">{{ inventory.item }}</td>
-                <td class="bg-gray-800">{{ inventory.quantity }}</td>
-                <td class="bg-gray-800"><button @click="deleteInventory(index)">Delete</button></td>
+                <td class="bg-gray-700 border-slate-800">{{ inventory.item }}</td>
+                <td class="bg-gray-700 border-slate-800">{{ inventory.quantity }}</td>
+                <td class="bg-gray-700 border-slate-800"><button @click="deleteInventory(index)">Delete</button></td>
               </tr>
             </tbody>
           </table>
