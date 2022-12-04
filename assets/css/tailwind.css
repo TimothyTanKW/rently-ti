@@ -17,7 +17,6 @@
     }
     
     input, select {
-        @apply bg-slate-800
+        @apply bg-gray-700
     }
-    
 }
