@@ -36,8 +36,8 @@ new useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/listofitems`)
             </thead>
             <tbody>
               <tr v-for="(inventory, index) in inventories" :key="index">
-                <td class="bg-gray-700 border-slate-800">{{ inventory.item }}</td>
-                <td class="bg-gray-700 border-slate-800">{{ inventory.quantity }}</td>
+                <td class="bg-gray-600 border-slate-800">{{ inventory.item }}</td>
+                <td class="bg-gray-600 border-slate-800">{{ inventory.quantity }}</td>
               </tr>
             </tbody>
           </table>
@@ -95,9 +95,9 @@ new useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/listofitems`)
             </thead>
             <tbody>
               <tr v-for="(inventory, index) in inventories" :key="index">
-                <td class="bg-gray-700 border-slate-800">{{ inventory.item }}</td>
-                <td class="bg-gray-700 border-slate-800">{{ inventory.quantity }}</td>
-                <td class="bg-gray-700 border-slate-800"><button @click="deleteInventory(index)">Delete</button></td>
+                <td class="bg-gray-600 border-slate-800">{{ inventory.item }}</td>
+                <td class="bg-gray-600 border-slate-800">{{ inventory.quantity }}</td>
+                <td class="bg-gray-600 border-slate-800"><button @click="deleteInventory(index)">Delete</button></td>
               </tr>
             </tbody>
           </table>
