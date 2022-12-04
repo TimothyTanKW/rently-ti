@@ -16,4 +16,8 @@
          @apply bg-slate-800 text-slate-300 min-h-screen
     }
     
+    input, select {
+        @apply bg-slate-800
+    }
+    
 }
