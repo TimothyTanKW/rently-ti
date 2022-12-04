@@ -13,7 +13,11 @@
     
     
     body, .container {
-        @apply bg-slate-800 text-slate-300 min-h-screen
+        @apply bg-slate-800 text-slate-300
+    }
+    
+    body{
+     @apply min-h-screen
     }
     
     input, select {
