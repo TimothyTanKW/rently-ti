@@ -6,7 +6,7 @@ useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/apartment1`)
 </script>
 <template>
     <header>
-        <div class="navbar bg-primary bg-base-100">
+        <div class="navbar bg-primary">
             <div class="flex-1 md:pl-6 pl-2">
                 <NuxtLink to="/" class="normal-case text-3xl font-mono">RENTLY_TI</NuxtLink>
             </div>
