@@ -53,7 +53,7 @@ new useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/listofitems`)
 
     <!-- Put this part before </body> tag -->
     <input type="checkbox" id="my-modal" class="modal-toggle" />
-    <div class="modal">
+    <div class="modal bg-gray-700 bg-opacity-90">
       <div class="modal-box bg-slate-800">
 
 
