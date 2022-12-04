@@ -20,8 +20,8 @@ useFetch(`https://6388cf94a4bb27a7f7925ef5.mockapi.io/apartment1`)
                                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                             </svg>
                         </a>
-                        <ul class="p-2 bg-base-100" >
-                            <li v-for="apartment in apartment" :key="apartment.id"><NuxtLink :to="`/apartments/${apartment.id}`">{{apartment.propertyName}}</NuxtLink></li>
+                        <ul class="p-2 bg-gray-600" >
+                            <li v-for="apartment in apartment" :key="apartment.id" class="hover:bg-gray-500"><NuxtLink :to="`/apartments/${apartment.id}`">{{apartment.propertyName}}</NuxtLink></li>
                         </ul>
                     </li>
                     <li><NuxtLink to="/">Home</NuxtLink></li>
