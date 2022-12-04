@@ -10,4 +10,10 @@
     .navbar {
         @apply bg-primary
     }
+    
+    
+    body {
+        @apply bg-base-100 text-slate-300
+    }
+    
 }
